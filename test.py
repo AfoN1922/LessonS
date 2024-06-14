@@ -1,1 +1,14 @@
-print(23891471923807487.142352314353455 + 23891471923807487.142352314356734 > 23891471923843245.142352314334563 + 23891471923843245.142352314334553)
+my_dict = {'Dima': 1989, 'Melana': 1990, 'Andrey': 1991, 'Samanta': 1992}
+print(my_dict)
+print(my_dict['Dima'])
+my_dict['Oksana'] = 1985
+print(my_dict['Oksana'])
+my_dict.update({'Ira': 1999, 'Sergey': 2000})
+a = my_dict.pop('Andrey')
+print(a)
+print(my_dict)
+my_set = {"Dom", 33, 20, False, "Dom"}
+print(my_set)
+my_set.update(["Room", 256])
+my_set.remove("Dom")
+print(my_set)
